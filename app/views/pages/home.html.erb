@@ -81,7 +81,7 @@
                                         <!-- * * Set the max width of your media to 100% and the height to-->
                                         <!-- * * 100% like the demo example below.-->
                                         <%= video_tag "demo-screen.mp4", style: "max-width: 100%; height: 100", autoplay: "", loop: "", type: "video/mp4" %>
-                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="../assets/images/demo-screen.mp4" type="video/mp4" /></video>
+                                        <%# <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="../assets/images/demo-screen.mp4" type="video/mp4" /></video> %>
                                     </div>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@
                                         <!-- * * This can be a video, image, or just about anything else.-->
                                         <!-- * * Set the max width of your media to 100% and the height to-->
                                         <!-- * * 100% like the demo example below.-->
-                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><%= video_tag "demo-screen.mp4" %></video>
+                                        <%= video_tag "demo-screen.mp4", style: "max-width: 100%; height: 100", autoplay: "", loop: "", type: "video/mp4" %>
                                     </div>
                                 </div>
                             </div>
@@ -294,7 +294,7 @@
         <!-- Bootstrap core JS-->   
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="../javascript/components/scripts.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
