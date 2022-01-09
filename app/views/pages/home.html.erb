@@ -96,7 +96,7 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
                         <div class="h2 fs-1 text-white mb-4">"A revolutionary solution, allowing influencers and businesses to increase traffic and revnue wrapped up in a single app!"</div>
-                        <%= image_tag "tnw-logo.svg", style: "height: 3rem" %>
+                        <%#= image_tag "tnw-logo.svg", style: "height: 3rem" %>
                     </div>
                 </div>
             </div>
@@ -202,7 +202,8 @@
                     <h3 style="color: white">
                         Find out when we launch.
                     </h3>
-                    <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age" target="_blank">Sign Up</a>
+                    <%# <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age" target="_blank">Sign Up</a> %>
+                    <%= link_to "Sign Up", subscribers_path, class: "btn btn-outline-light py-3 px-4 rounded-pill" %>
                 </div>
             </div>
         </section>
@@ -286,6 +287,8 @@
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
                             <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                            
+
                         </form>
                     </div>
                 </div>
