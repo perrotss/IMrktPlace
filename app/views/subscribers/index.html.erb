@@ -6,6 +6,8 @@
         <%= f.text_field :firstname, placeholder: "First Name" %>
         <%= f.text_field :lastname, placeholder: "Last Name" %>
         <%= f.email_field :email, placeholder: "Email" %>
-        <%= f.submit "Submit" %>
+        <%= f.submit "Submit", class: "btn btn-ghost" %>
     <% end %>
-<% end  %>      
+<% end  %>
+
+<%= link_to "Go Back", root_path %>
