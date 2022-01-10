@@ -104,7 +104,11 @@ GEM
     minitest (5.15.0)
     msgpack (1.4.2)
     nio4r (2.5.8)
+<<<<<<< HEAD
     nokogiri (1.13.0-x86_64-linux)
+=======
+    nokogiri (1.12.5-x86_64-darwin)
+>>>>>>> 39331f9c23a0cd2c2ad98d33319630c08d631713
       racc (~> 1.4)
     pg (1.2.3)
     public_suffix (4.0.6)
@@ -112,7 +116,11 @@ GEM
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.3)
+<<<<<<< HEAD
     rack-proxy (0.7.2)
+=======
+    rack-proxy (0.7.0)
+>>>>>>> 39331f9c23a0cd2c2ad98d33319630c08d631713
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -166,7 +174,11 @@ GEM
     simple_form (5.1.0)
       actionpack (>= 5.2)
       activemodel (>= 5.2)
+<<<<<<< HEAD
     spring (2.1.1)
+=======
+    spring (2.2.0)
+>>>>>>> 39331f9c23a0cd2c2ad98d33319630c08d631713
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
       spring (>= 1.2, < 3.0)
@@ -177,7 +189,11 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+<<<<<<< HEAD
     thor (1.2.1)
+=======
+    thor (1.1.0)
+>>>>>>> 39331f9c23a0cd2c2ad98d33319630c08d631713
     thread_safe (0.3.6)
     tilt (2.0.10)
     turbolinks (5.2.1)
@@ -203,10 +219,17 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
+<<<<<<< HEAD
     zeitwerk (2.5.3)
 
 PLATFORMS
   x86_64-linux
+=======
+    zeitwerk (2.5.1)
+
+PLATFORMS
+  x86_64-darwin-20
+>>>>>>> 39331f9c23a0cd2c2ad98d33319630c08d631713
 
 DEPENDENCIES
   autoprefixer-rails (= 10.2.5)

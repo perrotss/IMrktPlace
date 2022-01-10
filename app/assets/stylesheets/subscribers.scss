@@ -1,3 +1,57 @@
 // Place all the styles related to the subscribers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.font-alt {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 36px;
+}
+
+.btn-ghost{
+    display: flex;
+    justify-content: space-around;
+}
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0px 0px 8px 0px;
+}
+.label {
+    margin-bottom: 16px;
+    width: 375px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Newsreader", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.btn-ghost {
+    color: #4A4A4A;
+    border: 1px solid #4A4A4A;
+    padding: 8px 24px;
+    border-radius: 50px;
+    font-weight: lighter;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+    opacity: 1;
+}
+
+#go-back {
+    width: 109px; 
+    margin: auto;
+}

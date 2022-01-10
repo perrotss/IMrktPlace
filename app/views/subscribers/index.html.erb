@@ -1,13 +1,13 @@
 <% if cookies[:saved_subscriber] %>
     Thanks for Signing Up!
 <% else %>
-    <h1>Sign up and find out when we launch!</h1>
-    <%= form_for @subscriber do |f| %>
-        <%= f.text_field :firstname, placeholder: "First Name" %>
-        <%= f.text_field :lastname, placeholder: "Last Name" %>
-        <%= f.email_field :email, placeholder: "Email" %>
+    <h3 class="font-alt">Sign up and find out when we launch!</h3>
+    <%= form_for @subscriber, :html => { :class =>'sign-up-form' } do |f| %>
+        <%= f.text_field :firstname, placeholder: "First Name", class: 'label' %>
+        <%= f.text_field :lastname, placeholder: "Last Name", class: 'label' %>
+        <%= f.email_field :email, placeholder: "Email", class: 'label' %>
         <%= f.submit "Submit", class: "btn btn-ghost" %>
     <% end %>
 <% end  %>
 
-<%= link_to "Go Back", root_path, class: "btn btn-ghost" %>
+<%= link_to "Go Back", root_path, class: "btn btn-ghost", id: 'go-back' %>
